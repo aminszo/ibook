@@ -1,0 +1,70 @@
+body {
+    background: #fafafa url("../image/BlurBG.jpg")  center/cover no-repeat;
+}
+.container.full-screen {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+}
+.container.full-screen .content {
+    background: none;
+    box-shadow: none;
+    text-align: center;
+    padding: 30px 60px;
+}
+.titr-1 {
+    font-size: 3rem;
+}
+.titr-2 {
+    font-size: 2rem;
+}
+.describe-1 {
+    margin: 1.25rem 0;
+    font-size: 1.4rem;
+}
+.describe-2 {
+    margin: 1.25rem 0;
+    font-size: 1.2rem;
+}
+.describe-2 span {
+    font: bold 1.4rem 'vazir';
+}
+.start-button {
+    margin: 30px 0;
+}
+.button-1.start {
+    display: block;
+    width: 80%;
+    max-width: 350px;
+    margin: 30px auto;
+    padding: 18px 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    background-size: 200% 200%;
+    color: #fff;
+    border: none;
+    background-color: #23cba7;
+    background-image: linear-gradient(90deg, #2abb9b, #29f1c3 , #2abb9b );
+    transition: background-position .5s;
+}
+.button-1.start:hover {
+    background-position: right center;
+}    
+.button-1.start.help {
+    max-width: 150px;
+    padding: 4px;
+    background-image: linear-gradient(90deg, #18b674, #00c450, #18b674);
+}
+@media screen and (max-width:600px) {
+    .container.full-screen .content {
+        padding: 20px 10px;
+    }
+    .button-1.start {
+        width: 90%;
+        max-width: 350px;
+    }
+    .button-1.start.help {
+        width: 80%;
+        max-width: 180px;
+    }
+}
